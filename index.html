@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
 
-    <body>
+    <body class="bg-light">
         <!-- info -->
         <div class="container pt-2">
             <div class="row text-center">
@@ -91,15 +91,38 @@
                             <a class="nav-link text-white" href="#"><i class="fa-solid fa-user"></i> SIGN-UP</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#"><i class="fa-solid fa-key"></i> SIGN-IN</a>
+                            <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#signin"><i
+                                    class="fa-solid fa-key"></i> SIGN-IN</a>
                         </li>
                     </ul>
 
                 </div>
             </div>
         </nav>
+        <!-- sign up modal -->
+        <div class="modal fade" id="signin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog mt-5">
+                <div class="modal-content text-bg-secondary">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Sign-in Here</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="email" name="" id="" class="form-control mb-4 mt-2"
+                            placeholder="Enter Your Username...">
+                        <input type="password" name="" id="" class="form-control mb-2"
+                            placeholder="Enter Your Password...">
+                    </div>
+                    <button class="btn text-center mybg text-white mx-auto mb-3">LOGIN</button>
+                    <div class="text-center mx-auto mb-4">Have Not Account yet? <a href="#" class="text-white"
+                            style="text-decoration: none;"><b>SIGNUP</b></a></div>
+                </div>
+            </div>
+        </div>
+
+
         <!-- slide start  -->
-        <div id="carouselExampleCaptions" class="carousel slide p-0" data-bs-ride="true">
+        <div id="carouselExampleCaptions" class="carousel slide p-0" data-bs-ride="true" data-bs-interval="600">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -171,7 +194,7 @@
                             class="fa-solid fa-cart-shopping"></i></b>
                 </div>
             </div>
-            <div class="row gy-3 gx-3">
+            <div class="row gy-3 gx-3 ms-3">
                 <div class="col-sm-3">
                     <div class="card" style="width: 18rem;">
                         <img src="images/saree.jpg" style="height: 300px;" class="card-img-top" alt="...">
@@ -486,19 +509,6 @@
                 </footer>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
         <!-- FEEDBACK -->
         <div id="fh">
             <a href="feedback.html" style="text-decoration: none;"><span class="input-group mybg rounded-5 text-center"

@@ -91,13 +91,35 @@
                             <a class="nav-link text-white" href="#"><i class="fa-solid fa-user"></i> SIGN-UP</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#"><i class="fa-solid fa-key"></i> SIGN-IN</a>
+                            <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#signin"><i
+                                    class="fa-solid fa-key"></i> SIGN-IN</a>
                         </li>
                     </ul>
 
                 </div>
             </div>
         </nav>
+        <!-- sign up modal -->
+        <div class="modal fade" id="signin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content text-bg-secondary">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Sign-in Here</h1>
+                        <button type="button" class="btn-close mycolor" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <input type="email" name="" id="" class="form-control mb-4 mt-2"
+                            placeholder="Enter Your Username...">
+                        <input type="password" name="" id="" class="form-control mb-2"
+                            placeholder="Enter Your Password...">
+                    </div>
+                    <button class="btn text-center mybg text-white mx-auto mb-3">LOGIN</button>
+                    <div class="text-center mx-auto mb-4">Have Not Account yet? <a href="#" class="text-white"
+                            style="text-decoration: none;"><b>SIGNUP</b></a></div>
+                </div>
+            </div>
+        </div>
 
         <!-- feedback  -->
         <div class="container bg-light h w-75 mt-3">
