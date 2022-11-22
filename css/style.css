@@ -44,3 +44,22 @@ nav li:hover,.dd:hover{
     background-color: #77b100;
     color: aliceblue;
 }
+.clothbg{
+background: url("../images/clothbg.jpg");
+background-size: cover;
+}
+
+.wh{
+    width: 400px;
+}
+.rn{
+    margin-left: 320px;
+}
+.rn:hover{
+    background-color: tomato !important;
+}
+.mr{
+    width: 300px;
+    /* background-color: #77b100; */
+    margin-left: 250px;
+}

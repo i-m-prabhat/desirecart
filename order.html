@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>FEEDBACK | DesireCart</title>
+        <title>HOME | DesireCart</title>
         <link rel="shortcut icon" href="images/cartlogo.png" type="image/x-icon">
         <link rel="stylesheet" href="css/all.css">
         <link rel="stylesheet" href="css/bootstrap.css">
@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
 
-    <body>
+    <body class="bg-light">
         <!-- info -->
         <div class="container pt-2">
             <div class="row text-center">
@@ -79,11 +79,13 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#"><i class="fa-solid fa-shopping-cart"></i> MY
+                            <a class="nav-link text-white" href="order.html"><i class="fa-solid fa-shopping-cart"></i>
+                                MY
                                 ORDERS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#"><i class="fa-solid fa-user"></i> MY PROFILE</a>
+                            <a class="nav-link text-white" href="profile.html"><i class="fa-solid fa-user"></i> MY
+                                PROFILE</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="support.html"><i class="fa-solid fa-phone"></i>
@@ -91,7 +93,8 @@
                                 SUPPORT</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#"><i class="fa-solid fa-user"></i> SIGN-UP</a>
+                            <a class="nav-link text-white" href="signup.html"><i class="fa-solid fa-user"></i>
+                                SIGN-UP</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#" data-bs-toggle="modal" data-bs-target="#signin"><i
@@ -104,12 +107,11 @@
         </nav>
         <!-- sign up modal -->
         <div class="modal fade" id="signin" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+            <div class="modal-dialog mt-5">
                 <div class="modal-content text-bg-secondary">
                     <div class="modal-header">
                         <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Sign-in Here</h1>
-                        <button type="button" class="btn-close mycolor" data-bs-dismiss="modal"
-                            aria-label="Close"></button>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <input type="email" name="" id="" class="form-control mb-4 mt-2"
@@ -118,75 +120,133 @@
                             placeholder="Enter Your Password...">
                     </div>
                     <button class="btn text-center mybg text-white mx-auto mb-3">LOGIN</button>
-                    <div class="text-center mx-auto mb-4">Have Not Account yet? <a href="#" class="text-white"
+                    <div class="text-center mx-auto mb-4">Have Not Account yet? <a href="signup.html" class="text-white"
                             style="text-decoration: none;"><b>SIGNUP</b></a></div>
                 </div>
             </div>
         </div>
 
-        <!-- feedback  -->
-        <div class="container bg-light h w-75 mt-3">
+
+        <!-- Orders  -->
+        <div class="col-sm-12 text-center fs-2 mt-3.">CURRENT <b class="mycolor">ORDERS <i
+                    class="fa-solid fa-cart-shopping"></i></b>
+        </div>
+        <div class="container mt-5">
             <div class="row">
-                <div class="col-sm-12 text-center">
-                    <span class="fs-2 reg">Your Valuable <span class="text-warning">Feedback</span></span>
-                    <div class="row">
-                        <div class="col-sm-2 hr bg-warning"></div>
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="images/kurtee.jpg" class="bd-placeholder-img" width="200" height="250" alt="">
+
+                        </div>
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <div class="btn mybg text-white w-75 mt-4">ORDER DATE: 23 NOV 2022</div>
+                            <span class="mycolor mb-1 fs-5"><strong>Product Name: </strong> Kurtee</span>
+                            <span class="mycolor mb-1 fs-5"><strong>Total Price: </strong> 1799</span>
+                            <span class="mycolor mb-1 fs-5"><strong>Color: </strong> Yellow</span>
+                            <span class="mycolor mb-1 fs-5"><strong>Size: </strong> M</span>
+                            <div class="btn bg-danger text-white w-50 mt-2">CANCEL ORDER</div>
+                        </div>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-8 text-center mx-auto">
-                            <p>we appriciate to your valuable feedback and we are always focused on it.</p>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="images/saree.jpg" class="bd-placeholder-img" width="200" height="250" alt="">
+
+                        </div>
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <div class="btn mybg text-white w-75 mt-4">ORDER DATE: 23 NOV 2022</div>
+                            <span class="mycolor mb-1 fs-5"><strong>Product Name: </strong> Saree</span>
+                            <span class="mycolor mb-1 fs-5"><strong>Total Price: </strong> 1999</span>
+                            <span class="mycolor mb-1 fs-5"><strong>Color: </strong> RED</span>
+                            <span class="mycolor mb-1 fs-5"><strong>Size: </strong> </span>
+                            <div class="btn bg-danger text-white w-50 mt-2">CANCEL ORDER</div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="container bg-white rounded pb-5 pl-5 pr-5 pt-1">
-                <div class="col text-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="images/kids/img1.jpg" class="bd-placeholder-img" width="200" height="250" alt="">
 
-                </div>
-                <div class="row flex-column-reverse flex-lg-row">
-                    <div class="col-sm-6 mt-4 feebBackImg">
-                        <img class="img img-fluid w-100" src="images/pen-writing-notes-studying.jpg"
-                            style="height: 420px;" alt="">
+                        </div>
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <div class="btn mybg text-white w-75 mt-4">ORDER DATE: 23 NOV 2022</div>
+                            <span class="mycolor mb-1 fs-5"><strong>Product Name: </strong> Kurtee</span>
+                            <span class="mycolor mb-1 fs-5"><strong>Total Price: </strong> 1799</span>
+                            <span class="mycolor mb-1 fs-5"><strong>Color: </strong> Yellow</span>
+                            <span class="mycolor mb-1 fs-5"><strong>Size: </strong> M</span>
+                            <div class="btn bg-danger text-white w-50 mt-2">CANCEL ORDER</div>
+                        </div>
                     </div>
-                    <div class="col-sm-6 mt-4">
-                        <h4 class="divHeading">Add Your Feedback </h4>
-                        <form class="form" method="post" id="feedForm" action="/Home/Feedback"
-                            enctype="multipart/form-data">
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <label class="mb-0 mt-3">Your Name :</label>
-                                    <input type="text" name="name" class="form-control inputTechpile"
-                                        placeholder="Enter Your Name*" required="" pattern="[A-Za-z .]{3,50}"
-                                        title="Enter your name (Only valid name acceptable.)">
-                                </div>
-                                <div class="col-sm-6">
-                                    <label class="mb-0 mt-3">Your Image :</label>
-                                    <input type="file" name="pic" class="form-control inputTechpile" required=""
-                                        title="Your profile picture">
-                                </div>
-                                <div class="col-sm-12">
-                                    <label class="mb-0 mt-3">You're From :</label>
-                                    <input type="text" name="college" class="form-control inputTechpile"
-                                        placeholder="Enter Your City/Country Name*" required=""
-                                        pattern="[A-Za-z0-9 .]{3,50}" title="Enter your city/country name">
-                                </div>
-                                <div class="col-sm-12">
-                                    <label class="mb-0 mt-3">Your Feedback :</label>
-                                    <textarea class="form-control textareaTechpile" rows="4" name="msg"
-                                        placeholder="Your valuable feedback*" required=""></textarea>
-                                </div>
-                                <div class="col-sm-12 mt-3">
-                                    <input type="submit" class="btn btn-outline-warning" name="submit"
-                                        value="SEND FEEDBACK">
-                                    <span id="error"></span>
-                                </div>
-                            </div>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="images/kids/img7.jpg" class="bd-placeholder-img" width="200" height="250" alt="">
 
-                        </form>
+                        </div>
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <div class="btn mybg text-white w-75 mt-4">ORDER DATE: 23 NOV 2022</div>
+                            <span class="mycolor mb-1 fs-5"><strong>Product Name: </strong> Saree</span>
+                            <span class="mycolor mb-1 fs-5"><strong>Total Price: </strong> 1999</span>
+                            <span class="mycolor mb-1 fs-5"><strong>Color: </strong> RED</span>
+                            <span class="mycolor mb-1 fs-5"><strong>Size: </strong> </span>
+                            <div class="btn bg-danger text-white w-50 mt-2">CANCEL ORDER</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="images/mens/img10.avif" class="bd-placeholder-img" width="200" height="250"
+                                alt="">
+
+                        </div>
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <div class="btn mybg text-white w-75 mt-4">ORDER DATE: 23 NOV 2022</div>
+                            <span class="mycolor mb-1 fs-5"><strong>Product Name: </strong> Kurtee</span>
+                            <span class="mycolor mb-1 fs-5"><strong>Total Price: </strong> 1799</span>
+                            <span class="mycolor mb-1 fs-5"><strong>Color: </strong> Yellow</span>
+                            <span class="mycolor mb-1 fs-5"><strong>Size: </strong> M</span>
+                            <div class="btn bg-danger text-white w-50 mt-2">CANCEL ORDER</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div
+                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                        <div class="col-auto d-none d-lg-block">
+                            <img src="images/mens/img8.jpg" class="bd-placeholder-img" width="200" height="250" alt="">
+
+                        </div>
+                        <div class="col p-4 d-flex flex-column position-static">
+                            <div class="btn mybg text-white w-75 mt-4">ORDER DATE: 23 NOV 2022</div>
+                            <span class="mycolor mb-1 fs-5"><strong>Product Name: </strong> Saree</span>
+                            <span class="mycolor mb-1 fs-5"><strong>Total Price: </strong> 1999</span>
+                            <span class="mycolor mb-1 fs-5"><strong>Color: </strong> RED</span>
+                            <span class="mycolor mb-1 fs-5"><strong>Size: </strong> </span>
+                            <div class="btn bg-danger text-white w-50 mt-2">CANCEL ORDER</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
+
+
+        <!-- footer  -->
         <div class="container-fluid bg-dark text-white mt-3">
             <div class="container">
                 <footer class="pt-5 py-1">
@@ -262,6 +322,7 @@
                 </footer>
             </div>
         </div>
+        <!-- FEEDBACK -->
         <div id="fh">
             <a href="feedback.html" style="text-decoration: none;"><span class="input-group mybg rounded-5 text-center"
                     style="width: 200px;">
