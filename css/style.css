@@ -1,11 +1,14 @@
 .mycolor{
  color: #77b100 !important;   
+    /* color: #0015fe !important; */
 }
 .mybg{
     background: #77b100 !important;
+    /* background: #0015fe !important; */
 }
 nav li:hover,.dd:hover{
     background: #77b100;
+    /* background: #0015fe !important; */
 }
 .ch{
     height: 550px;
@@ -42,6 +45,7 @@ nav li:hover,.dd:hover{
 }
 .button:hover{
     background-color: #77b100;
+    /* background: #0015fe !important; */
     color: aliceblue;
 }
 .clothbg{
@@ -57,6 +61,7 @@ background-size: cover;
 }
 .rn:hover{
     background-color: tomato !important;
+    /* background: #0015fe !important; */
 }
 .mr{
     width: 300px;
