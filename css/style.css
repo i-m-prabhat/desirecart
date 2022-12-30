@@ -1,14 +1,14 @@
 .mycolor{
- color: #77b100 !important;   
-    /* color: #0015fe !important; */
+ /* color: #77b100 !important;    */
+    color: #0015fe !important;
 }
 .mybg{
-    background: #77b100 !important;
-    /* background: #0015fe !important; */
+    /* background: #77b100 !important; */
+    background: #0015fe !important;
 }
 nav li:hover,.dd:hover{
-    background: #77b100;
-    /* background: #0015fe !important; */
+    /* background: #77b100; */
+    background: #0015fe !important;
 }
 .ch{
     height: 550px;
@@ -44,8 +44,8 @@ nav li:hover,.dd:hover{
     color: #000;
 }
 .button:hover{
-    background-color: #77b100;
-    /* background: #0015fe !important; */
+    /* background-color: #77b100; */
+    background: #0015fe !important;
     color: aliceblue;
 }
 .clothbg{
